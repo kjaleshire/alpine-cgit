@@ -1,0 +1,25 @@
+#!/usr/bin/with-contenv bash
+
+# create directories
+mkdir -p \
+	/app \
+	/config/{repositories,nginx,log/nginx} \
+	/var/cache/cgit
+
+# copy files
+[[ ! -f /config/cgitrc ]] && \
+	cp /files/cgitrc /config/cgitrc
+[[ ! -f /config/nginx/nginx.conf ]] && \
+	cp /files/nginx.conf /config/nginx/nginx.conf
+
+# clone example repositories
+if [[ ! "$(ls -A ${CONFIG_DIR}/repositories/)" ]]; then
+	git clone https://github.com/chruth/docker-cgit.git /config/repositories/docker-cgit
+	git clone https://github.com/chruth/docker-baseimage-alpine.git /config/repositories/docker-baseimage-alpine
+fi
+
+# fix permissions
+chown -R yaapc:yaapc \
+	/app \
+	/config \
+	/var/cache/cgit
