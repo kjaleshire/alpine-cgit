@@ -38,4 +38,4 @@ services:
 | :---: | --- |
 | -e PUID | 1000 |
 | -e PGID | 1000 |
-| -v <path for app files>:/app |  |
+| -v \<path for app files\>:/app |  |
