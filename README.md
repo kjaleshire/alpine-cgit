@@ -2,6 +2,11 @@
 
 Alpine base image with s6-ovleray, NGINX (stable) and CGIT (latest commit)
 
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chruth/alpine-cgit?style=flat-square)
+![Docker Pulls](https://img.shields.io/docker/pulls/chruth/alpine-cgit?style=flat-square)
+![MicroBadger Layers](https://img.shields.io/microbadger/layers/chruth/alpine-cgit?style=flat-square)
+![GitHub](https://img.shields.io/github/license/chruth/alpine-cgit?style=flat-square)
+
 # Usage
 
 ### docker
