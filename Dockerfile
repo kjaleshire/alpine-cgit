@@ -27,7 +27,7 @@ RUN \
     git \
     fcgiwrap \
     spawn-fcgi \
-  	lua5.3-libs \
+    lua5.3-libs \
     zlib && \
   # build cgit
   git clone https://git.zx2c4.com/cgit /tmp/cgit && cd /tmp/cgit && \
