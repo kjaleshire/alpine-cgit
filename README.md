@@ -1,6 +1,6 @@
 # alpine-cgit
 
-Alpine base image with **s6-ovleray**, **NGINX** (stable) and **CGIT** (latest commit)
+Alpine based image with **s6-ovleray** (git), **NGINX** (apk) and **CGIT** (git)
 
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chruth/alpine-cgit?style=flat-square)
 ![Docker Pulls](https://img.shields.io/docker/pulls/chruth/alpine-cgit?style=flat-square)
