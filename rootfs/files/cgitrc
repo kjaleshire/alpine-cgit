@@ -112,11 +112,11 @@ readme=:install
 ##
 
 repo.url=alpine-cgit
-repo.path=/config/repositories/alpine-cgit/.git
+repo.path=/config/repositories/alpine-cgit.git
 repo.desc=Alpine Linux base with CGIT and NGINX
 repo.owner=chruth
 
 repo.url=alpine-base
-repo.path=/config/repositories/alpine-base/.git
+repo.path=/config/repositories/alpine-base.git
 repo.desc=Alpine Linux image
 repo.owner=chruth

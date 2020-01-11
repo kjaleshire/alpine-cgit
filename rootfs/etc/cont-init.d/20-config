@@ -14,8 +14,8 @@ mkdir -p \
 
 # clone example repositories
 if [[ ! "$(ls -A ${CONFIG_DIR}/repositories/)" ]]; then
-	git clone https://github.com/chruth/alpine-cgit.git /config/repositories/alpine-cgit
-	git clone https://github.com/chruth/alpine-base.git /config/repositories/alpine-base
+	git clone --bare https://github.com/chruth/alpine-cgit.git /config/repositories/alpine-cgit.git
+	git clone --bare https://github.com/chruth/alpine-base.git /config/repositories/alpine-base.git
 fi
 
 # fix permissions
