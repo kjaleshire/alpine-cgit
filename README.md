@@ -1,11 +1,11 @@
 # alpine-cgit
 
-Alpine based image with **s6-ovleray** (git), **NGINX** (apk) and **CGIT** (git)
+Alpine Linux base with **CGIT** and **NGINX** 
 
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chruth/alpine-cgit?style=flat-square)
-![Docker Pulls](https://img.shields.io/docker/pulls/chruth/alpine-cgit?style=flat-square)
-![MicroBadger Layers](https://img.shields.io/microbadger/layers/chruth/alpine-cgit?style=flat-square)
-![GitHub](https://img.shields.io/github/license/chruth/alpine-cgit?style=flat-square)
+[![Drone (cloud)](https://img.shields.io/drone/build/chruth/alpine-base?style=flat-square)](https://cloud.drone.io/chruth/alpine-cgit)
+[![Docker Pulls](https://img.shields.io/docker/pulls/chruth/alpine-cgit?style=flat-square)](https://hub.docker.com/r/chruth/alpine-cgit)
+[![MicroBadger Layers](https://img.shields.io/microbadger/layers/chruth/alpine-cgit?style=flat-square)](https://microbadger.com/images/chruth/alpine-cgit)
+[![GitHub](https://img.shields.io/github/license/chruth/alpine-cgit?style=flat-square)](https://github.com/chruth/alpine-cgit/blob/master/LICENSE)
 
 # Usage
 
