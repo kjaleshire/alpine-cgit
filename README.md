@@ -1,8 +1,8 @@
 # alpine-cgit
 
-Alpine Linux base with **CGIT** and **NGINX** 
+Alpine Linux with **CGIT** and **NGINX** 
 
-[![Drone (cloud)](https://img.shields.io/drone/build/chruth/alpine-base?style=flat-square)](https://cloud.drone.io/chruth/alpine-cgit)
+[![Drone (cloud)](https://img.shields.io/drone/build/chruth/alpine-cgit?style=flat-square)](https://cloud.drone.io/chruth/alpine-cgit)
 [![Docker Pulls](https://img.shields.io/docker/pulls/chruth/alpine-cgit?style=flat-square)](https://hub.docker.com/r/chruth/alpine-cgit)
 [![MicroBadger Layers](https://img.shields.io/microbadger/layers/chruth/alpine-cgit?style=flat-square)](https://microbadger.com/images/chruth/alpine-cgit)
 [![GitHub](https://img.shields.io/github/license/chruth/alpine-cgit?style=flat-square)](https://github.com/chruth/alpine-cgit/blob/master/LICENSE)
