@@ -2,9 +2,8 @@
 
 Alpine Linux with **CGIT** and **NGINX** 
 
-[![Travis (.com)](https://img.shields.io/travis/com/chruth/alpine-cgit?style=flat-square)](https://travis-ci.com/github/chruth/alpine-cgit/)
+[![Github Actions](https://github.com/chruth/alpine-cgit/actions/workflows/docker-image-ci.yml/badge.svg)](https://github.com/chruth/alpine-cgit/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/chruth/alpine-cgit?style=flat-square)](https://hub.docker.com/r/chruth/alpine-cgit)
-[![MicroBadger Layers](https://img.shields.io/microbadger/layers/chruth/alpine-cgit?style=flat-square)](https://microbadger.com/images/chruth/alpine-cgit)
 [![GitHub](https://img.shields.io/github/license/chruth/alpine-cgit?style=flat-square)](https://github.com/chruth/alpine-cgit/blob/master/LICENSE)
 
 # Usage
