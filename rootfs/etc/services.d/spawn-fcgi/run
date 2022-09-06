@@ -1,3 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-exec spawn-fcgi -u yaapc -g yaapc -s /var/run/fcgiwrap.sock -n -- /usr/bin/fcgiwrap

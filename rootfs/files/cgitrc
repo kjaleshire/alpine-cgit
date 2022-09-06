@@ -102,21 +102,4 @@ readme=:install.txt
 readme=:INSTALL
 readme=:install
 
-##
-## List of repositories.
-## PS: Any repositories listed when section is unset will not be
-##     displayed under a section heading
-## PPS: This list could be kept in a different file (e.g. '/etc/cgitrepos')
-##      and included like this:
-##        include=/etc/cgitrepos
-##
-
-repo.url=alpine-cgit
-repo.path=/config/repositories/alpine-cgit.git
-repo.desc=Alpine Linux base with CGIT and NGINX
-repo.owner=chruth
-
-repo.url=alpine-base
-repo.path=/config/repositories/alpine-base.git
-repo.desc=Alpine Linux image
-repo.owner=chruth
+scan-path=/config/repositories
