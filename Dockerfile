@@ -23,17 +23,17 @@ RUN \
     lua5.4-dev \
     zlib-dev \
     openssl-dev \
-    git \
     asciidoc && \
   # runtime packages
   apk add --update --no-cache \
-    python3 \
+    fcgiwrap \
+    git-daemon \
+    lua5.4-libs \
+    nginx \
     py3-markdown \
     py3-pygments \
-    nginx \
-    fcgiwrap \
+    python3 \
     spawn-fcgi \
-    lua5.4-libs \
     zlib && \
   # build cgit
   git clone https://git.zx2c4.com/cgit /tmp/cgit && cd /tmp/cgit && \
