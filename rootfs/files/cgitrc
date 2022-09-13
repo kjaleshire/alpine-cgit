@@ -25,8 +25,8 @@ branch-sort=age
 # Enable caching of up to 1000 output entries
 cache-size=0
 
-# Allow download of tar.gz, tar.bz2 and zip-files
-snapshots=tar.gz tar.bz2 zip
+# Allow download of tar.xz and zip-files
+snapshots=tar.xz zip
 
 # Enable statistics per week, month and quarter
 max-stats=quarter
